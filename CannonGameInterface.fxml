@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="paneContainer" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CannonGameController">
+   <children>
+      <Canvas fx:id="canvas" height="400.0" onMouseClicked="#fireInTheHole" onMouseMoved="#adjustPosition" width="800.0" />
+      <Label fx:id="timeLabel" layoutX="23.0" layoutY="6.0" text="Time : ">
+         <font>
+            <Font name="Arial" size="31.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
